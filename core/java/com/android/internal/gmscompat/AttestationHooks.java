@@ -32,7 +32,7 @@ public final class AttestationHooks {
     private static final String PROCESS_UNSTABLE = "com.google.android.gms.unstable";
 
     private static final String PRODUCT_STOCK_FINGERPRINT =
-            SystemProperties.get("ro.build.stock_fingerprint");
+            "google/angler/angler:6.0/MDB08L/2343525:user/release-keys";
 
     private static volatile boolean sIsGms = false;
 
