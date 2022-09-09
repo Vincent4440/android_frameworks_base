@@ -18,7 +18,7 @@
         android:id="@+id/brightness_slider"
         android:layout_width="match_parent"
         android:layout_height="@dimen/brightness_mirror_height"
-        android:layout_gravity="center_vertical"
+        android:layout_gravity="center"
         android:contentDescription="@string/accessibility_brightness"
         android:importantForAccessibility="no" >
 
@@ -37,15 +37,14 @@
             android:splitTrack="false"
         />
 
-        <ImageView
+        <ImageButton
             android:id="@+id/brightness_icon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:layout_marginStart="4dp"
-            android:layout_marginEnd="8dp"
+            android:background="@drawable/bg_qs_brightness_auto_off"
             android:src="@drawable/ic_qs_brightness_auto_off"
             android:contentDescription="@null"
-            android:visibility="gone"
+            android:layout_marginStart="8dp"
         />
     </com.android.systemui.settings.brightness.BrightnessSliderView>
